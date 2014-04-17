@@ -1,0 +1,29 @@
+\documentclass[parskip=half]{report}
+
+\usepackage[ngerman]{babel} %Richtige Silbentrennung
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[pdfborder={0 0 0}]{hyperref} %Verlinkugnen
+\usepackage{amssymb} %Für mathematische Symbole
+\usepackage{amsmath}
+\usepackage{esdiff}
+\usepackage{graphicx} %Für das Einbinden von Bildern
+\usepackage{enumitem} %Anpassbare Enumerates/Itemizes
+\usepackage{MnSymbol}%Pfeile
+
+\title{Quantenmechanik 1 bei Prof. Brügmann}
+\author{Felix Wiesner, Wilhelm Eschen und Katharina Wölfl}
+
+%Ab hier Definition neuer Kommandos
+\def\D{\mathrm{d}} % Führt einen ordentlich Differentialopperaot wie z.B. dx ein, also auch als "\D" verwenden!!
+\def\H{\mathrm{H}} % Führt einen ordentlichen Hamiltonopperator ein, Benutzung durch "\H"
+
+\begin{document}
+
+	%Titel und Inhaltsverzeichnis
+	\maketitle
+	\tableofcontents
+	%Erstes Kapitel
+	\include{Dokumente/Kapitel1}
+		
+\end{document}
